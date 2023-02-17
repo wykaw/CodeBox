@@ -1,0 +1,58 @@
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# gradle/wrapper/gradle-wrapper.properties
+**/HELP.md
+**/build
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+**/bin
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out
+**/nbproject
+**/nbbuild
+**/dist
+**/nbdist
+**/.nb-gradle
+**/node_modules
+**/Thumbs.db
+**/package-lock.json
+**/build
+**/*.gz
+**/~$*.*
+**/*.tmp
+**/*.log
+**/.vscode
+**/.eslintrc.yml
+**/jsconfig.json
+**/package.json
+**/application-*.yml
+# **/application-*.properties
+# **/*.xml
+#a pplication-ji*.yml
+#a pplication-sa*.yml
+#a pplication-si*.yml
+!application-debug.yml
+#a !**/src/**/etc/application-*.yml
+#a !application-jpa.yml
+#a !application-dba.yml
+#a !application-jpatest.yml
+jsfv.xml
+!application-*Dev.yml
